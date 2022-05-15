@@ -1,0 +1,384 @@
+
+*{
+margin: 0;padding: 0;outline: 0;
+}
+body{
+font-family: arial;font-size:14px;line-height:18px;
+
+}
+
+.headersection{
+
+background: #E8EBF1;
+}
+
+.navbar{
+	border: none;
+	margin-bottom: 0;
+}
+.bg-light {
+    background-color: #E8EBF1!important;
+	
+
+}
+/* =============================================================
+Start Style for about section
+============================================================== */
+.aboutsecion{}
+.about{}
+.about h4{
+padding: 40px 0px 40px 0px;
+}
+.about p{
+padding-bottom: 10px;
+text-align: justify;
+}
+
+/* =============================================================
+End Style for about section
+============================================================== */
+
+/* =============================================================
+Start Style for service section
+============================================================== */
+.servicesection{
+background: #E8EBF1;
+padding: 100px 0px 50px 0px;
+}
+.card-title {
+margin-bottom: 1rem;
+margin-top: 1rem;
+}
+.card-img-top{
+width: 40px;
+}
+
+.card-img-top:hover{
+-webkit-transform: scaleX(-1);
+transform: scaleX(-1);
+
+}
+/* =============================================================
+End Style for service section
+============================================================== */
+
+/* =============================================================
+Start Style for tender section
+============================================================== */
+.tenderinfo{
+padding: 0px 20px 100px 20px;
+}
+.tenderinfo h4{
+padding: 60px 0px 10px 0px;
+}
+.tenderinfo p{ 
+padding: 0px 0px 60px 0px;
+}
+.card-img-tender {
+width: 40px;
+padding: 46px 0px 0px 0px;
+}
+.col-md-3 a{
+text-decoration: none;
+}
+.col-md-3 a:hover{
+text-decoration: none;
+}
+/* =============================================================
+End Style for tender section
+============================================================== */
+
+
+/* =============================================================
+Start Style for project section
+============================================================== */
+.projectsection{
+background:#E8EBF1; 
+}
+.project{
+padding: 10px 0px 100px 0px;
+}
+.project h4{
+padding: 40px 0px 40px 0px;
+color: #2A557B;
+}
+.project p{
+padding-bottom: 10px;
+text-align: justify;
+}
+
+/* =============================================================
+End Style for project section
+============================================================== */
+
+
+/* =============================================================
+Start Style for power plant section
+============================================================== */
+
+.plansection{
+padding: 50px 0px 100px 0px;     
+}
+.plansection h3{
+text-align: center;
+color: #2A557B;
+font-size: 12pt;
+border-bottom: 1px solid #12631F;
+padding-bottom: 36px;
+margin-left: 110px;
+margin-right: 100px;
+}
+.content-wrapper{
+
+}
+.content-wrapper img{
+width: 100%;
+}
+.content-wrapper img:hover{
+-webkit-transform: scaleX(-1);
+transform: scaleX(-1);
+}
+.text-wrapper{
+width: 100%;
+position: relative;
+margin-top: -40px;
+background: #2A557B;
+padding-bottom: 40px;
+opacity: .8;
+}
+
+
+.text-wrapper p{
+font-size: 8pt;
+color: #fff;
+float: left;
+padding: 2px;
+margin-top: 11px;
+margin-left: 8px;
+}
+.text-wrapper ul{margin: 0;padding: 0;outline: 0;}
+.text-wrapper ul li{list-style: none;}
+.text-wrapper ul li a{
+
+background: #fff;
+padding: 5px 11px;
+text-decoration: none;
+color: #2A557B;
+margin-right: 10px;
+float: right;
+border-radius: 3px;
+margin-top: 5px;
+}
+.text-wrapper ul li a:hover{
+background: #E8EBF1;
+color: #000;
+}
+.text{
+
+width: 80%;
+}
+.carousel-caption a{
+float: right;
+color: #12631F;
+background: #fff;
+padding: 3px 7px;
+}
+
+/* =============================================================
+End Style for power plant section
+============================================================== */
+
+/* =============================================================
+Start Style for news tricky section
+============================================================== */
+.newstricky{
+
+background: #E8EBF1;
+padding: 0px 0px 100px 0px;
+}
+.newstricky h4{
+color: #2A557B;
+padding-top: 25px;
+}
+
+.tricky {
+border: 1px solid #ccc;
+margin: 25px 0;
+}
+.tricky ul {
+padding: 0;
+list-style: none;
+}
+.tricky li {
+padding: 20px;
+border-bottom: 1px dashed #ccc;
+}
+.tricky li.odd {
+background: #fafafa;
+}
+.tricky li:after {
+content: '';
+display: block;
+clear: both;
+}
+.tricky img {
+float: left;
+width: 177px;
+margin: 5px 15px 0 0;
+}
+.tricky a {
+font-family: Arial, sans-serif;
+font-size: 20px;
+font-weight: bold;
+color: #2A557B;
+
+}
+.tricky a:hover {
+text-decoration: none;
+
+}
+.tricky p {
+margin: 15px 0 0;
+font-size: 14px;
+}
+.et-run {
+background-color: #0cf;
+color: white;
+border: 1px solid black;}
+/* =============================================================
+End Style for news tricky section
+============================================================== */
+
+
+
+/* =============================================================
+Start Style for newsandevent section
+============================================================== */
+
+.newsandevent{
+
+}
+.newsandevent h3{
+text-align: center;
+color: #2A557B;
+font-size: 12pt;
+padding-bottom: 30px;
+}
+
+.notice-content-wrapper img{
+width: 100%;
+}
+.notice-content-wrapper img:hover{
+-webkit-transform: scaleX(-1);
+transform: scaleX(-1);
+
+}
+.notice-text-wrapper{
+width: 100%;
+position: relative;
+margin-top: -60px;
+background: #2A557B;
+/* padding: 10px; */
+padding-bottom: 61px;
+opacity: .7;
+}
+
+
+.notice-text-wrapper p{
+font-size: 8pt;
+color: #fff;
+float: left;
+padding: 2px;
+margin-top: 11px;
+margin-left: 8px;
+margin-right: 4px;
+}
+
+.notice-text{
+
+width: 100%;
+}
+
+
+/* =============================================================
+End Style for newsandevent section
+============================================================== */
+
+/* =============================================================
+Start Style for contact section
+============================================================== */
+.contactsection{}
+.contactsection h4{
+
+padding: 10px 0px 20px 0px;
+color: #2A557B;
+
+}
+
+.mapicon{
+padding-left: 60px;
+}
+
+.contact{
+padding: 50px 20px 100px 20px;
+}
+.maps{
+
+margin-top: 30px;
+}
+#map {
+width: 100%;
+height: 500px;
+}
+
+/* =============================================================
+End Style for contact section
+============================================================== */
+
+
+/* =============================================================
+Start Style for footer section
+============================================================== */
+.footersection{
+margin-top: 30px;
+background: #E8EBF1
+}
+.footersection h4{
+font-size: 20px;
+padding: 15px 0px 15px 0px;
+}
+.socialicone{
+
+}
+.socialicone img{
+
+}
+.usefullink{
+text-align: center;
+}
+.usefullink ul{margin: 0;padding: 0}
+.usefullink ul li{
+list-style: none;
+}
+.usefullink ul li a{
+color: #000;
+}
+.usefullink ul li a:hover{}
+.download{}
+.download ul{}
+.download ul li{
+list-style: none;
+}
+.download ul li a{
+color: #000;
+}
+.download ul li a:hover{}
+.download a{
+color: #000;
+}
+.footer-contact{}
+.footer-contact h3{}
+.footer-contact p{}
+/* =============================================================
+End Style for footer section
+============================================================== */
